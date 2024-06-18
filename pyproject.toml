@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "brief-bot"
+version = "0.1.0"
+description = ""
+authors = ["Alexander Ezhkov"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+g4f = "^0.2.7.1"
+undetected-chromedriver = "^3.5.5"
+platformdirs = "^4.2.0"
+curl-cffi = "^0.6.2"
+pydantic = "^2.7.1"
+alembic = "^1.13.1"
+aiogram = "^3.5.0"
+nest-asyncio = "^1.6.0"
+loguru = "^0.7.2"
+pydantic-settings = "^2.2.1"
+dishka = "^1.1.1"
+asyncpg = "^0.29.0"
+psycopg2-binary = "^2.9.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

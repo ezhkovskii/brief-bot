@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  db:
+    image: postgres:15.3-alpine
+    container_name: brief_db
+    ports:
+      - "6432:5432"
+    env_file:
+      - .env
